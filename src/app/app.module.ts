@@ -15,12 +15,14 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { CuerpoComponent } from './componentes/cuerpo/cuerpo.component';
 import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 // rutas
 const routes: Routes = [
   { path: 'cuerpo', component: CuerpoComponent },
   { path: 'nosotros', component: NosotrosComponent },
   { path: 'contacto', component: ContactoComponent },
+  { path: 'login', component: LoginComponent },
   { path: '', component: InicioComponent, pathMatch: 'full' },
   { path: '**', redirectTo: '/', pathMatch: 'full' },
 ];
@@ -35,7 +37,8 @@ const routes: Routes = [
     ContactoComponent,
     CuerpoComponent,
     NosotrosComponent,
-    InicioComponent
+    InicioComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
