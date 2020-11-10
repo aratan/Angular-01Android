@@ -9,7 +9,7 @@ import { Plugins } from '@capacitor/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Fresquisimo';
   show:boolean = false;
   n:number = 0;
   arr:string[] = ["Hola","adios","despues","repite"];
