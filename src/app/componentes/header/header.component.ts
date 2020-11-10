@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
     console.log("creado")
   }
  
-  nombre = "logo";
+  nombre = "";
 
   cambiaNombre(){
   this.nombre += "carlos"
