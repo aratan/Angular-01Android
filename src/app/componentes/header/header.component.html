@@ -4,8 +4,14 @@
         <div class="col-lg-3 navbar-header text-dark">
             <a class="navbar-brand" href="/">{{ nombre }}</a>
         </div>
-        
-        <ul class="nav nav-justified">
+
+    <!--inicio-->    
+    <button type="button" class="btn btn-light" mat-stroked-button (click)="cambiaNombre()">
+    muestra: {{ show }}
+    </button>
+    <!--final-->  
+
+    <ul class="nav nav-justified">
             <li class="nav-item"><a [routerLink]="['/inicio']" class="nav-link">Inicio</a></li>
             <li class="nav-item"><a [routerLink]="['/login']" class="nav-link">Login</a></li>
             
