@@ -6,7 +6,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
-import { UserComponent } from './componentes/user/user.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -32,7 +31,6 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     HeaderComponent,
-    UserComponent,
     FooterComponent,
     ContactoComponent,
     CuerpoComponent,
