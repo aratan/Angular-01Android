@@ -10,11 +10,15 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatButtonModule} from '@angular/material/button';
+
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { CuerpoComponent } from './componentes/cuerpo/cuerpo.component';
 import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { LoginComponent } from './componentes/login/login.component';
+
+import { HttpClientModule } from '@angular/common/http';
+import { ServicioTask } from './servicio/task.service';
 
 // rutas
 const routes: Routes = [
@@ -42,9 +46,12 @@ const routes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    HttpClientModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [
+    ServicioTask
+  ],
   bootstrap: [AppComponent]
 })
 
