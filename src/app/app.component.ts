@@ -26,10 +26,16 @@ export class AppComponent implements OnInit {
 
   ngOnInit(){
     this._ServicioTask.getDato().subscribe(
-      data => console.log(data[0].name),
+      data => console.log(data = data));
+      /*data => console.log(data[0].name),
       err => console.log(err),
       () => console.log('Peticion finalizada'))
-      
+      */
+     document.getElementById("borra").innerHTML = `Aqui: `;
+     document.getElementById("borra").className = "mb-5 bg-dark text-white";
+     //var obj = data;
+    //var myJSON = JSON.stringify(obj);
+    //document.getElementById("borrar").innerHTML = myJSON;
   }
   
 }
