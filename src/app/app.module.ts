@@ -47,7 +47,7 @@ const routes: Routes = [
     BrowserAnimationsModule,
     MatButtonModule,
     HttpClientModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })
   ],
   providers: [
     ServicioTask
