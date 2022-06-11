@@ -20,6 +20,7 @@ https://update.angular.io/?v=10.0-11.0
  ng update @angular/material@11
  ng update
  ng update @angular/cli @angular/core
+ ng version
  
  * Probar *
  * ng serve
@@ -31,7 +32,8 @@ Angular 11 a 12
   ng update @angular/core@12 @angular/cli@12
   ng update @angular/material@12
   ng update
-  
+  ng version
+ 
  * Probar *
  * ng serve
  * http://localhost:4200/
@@ -43,7 +45,8 @@ Angular 12 a 13
   ng update
   ng update @angular/core@13 @angular/cli@13
   ng update @angular/material@13
-
+  ng version
+ 
  * Probar *
  * ng serve
  * http://localhost:4200/
