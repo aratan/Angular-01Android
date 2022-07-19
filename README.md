@@ -1,5 +1,5 @@
 # angular-01 Android
-
+[![Node.js CI](https://github.com/aratan/pokedex-for-ci/actions/workflows/node.js.yml/badge.svg)](https://github.com/aratan/pokedex-for-ci/actions/workflows/node.js.yml)
 Con angular podemos crear una apk de android, basada en web.
 
 Vamos a necesitar Nodejs, TypeScript, Vscode, Capacitor, Sdk de Android Studio
